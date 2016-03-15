@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>jQuery Homework</title>
+	<style>
+		.container {
+			height: 100%;
+			width: 50%;
+			background-color: pink;
+		}
+		h4 {
+			font-size: 1.25em;
+		}
+		input {
+			border-radius: 2px;
+			margin: 10px;
+		}
+		button {
+			border-radius: 2px;
+		}
+	</style>
+</head>
+
+<body>
+<!-- Cash Register Problem -->
+	<h4>Cash Register</h4>
+	<div class="container">
+		<ul id="itemList"></ul>
+		<input id="item" type="text" placeholder="item">
+		<input id="cost" type="text" placeholder="cost">
+		<button id="addItems">Add item!</button>
+		<div>Total: $<span id="totalCost"></span></div>
+	 </div>
+
+<!-- To-Do List Application -->
+	<h4>To Do List</h4>
+	<div class="container">
+		<ul id="items"></ul>
+		<input id="toDo" type="text">
+		<button id="addNewItem">Add New Item</button>
+	</div>
+
+<!-- Scripts -->
+    <script src="https://code.jquery.com/jquery-1.12.1.min.js"></script>
+    <script src="JS/main.js"></script>
+
+</body>
+</html>
